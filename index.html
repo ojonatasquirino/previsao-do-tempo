@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Previsão de Tempo</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="caixa-maior">
+      <input placeholder="Digite o nome da cidade" class="input-cidade" />
+      <button class="botao-busca" onclick="cliqueiNoBotao()">
+        <img
+          src="https://www.svgrepo.com/show/488200/find.svg"
+          alt="lupa"
+          class="img-busca"
+        />
+      </button>
+
+      <div class="caixa-media">
+        <h2 class="cidade">Tempo em</h2>
+        <p class="temp">21° C</p>
+
+        <div class="caixa-menor">
+          <img
+            class="img-previsao"
+            src="https://openweathermap.org/img/wn/04n.png"
+            alt="Icone con informação do tempo"
+          />
+          <p class="texto-previsao">Nublado</p>
+        </div>
+
+        <p class="umidade">Umidade: 76%</p>
+      </div>
+    </div>
+
+    <footer>
+      <a
+        id="github"
+        href="https://github.com/ojonatasquirino"
+        target="_blank"
+        id="icon"
+      >
+        <i class="fa fa-github" style="font-size: 36px"> </i>
+      </a>
+      <a
+        id="linkedin"
+        href="https://www.linkedin.com/in/jonatasquirino/"
+        target="_blank"
+        id="icon"
+      >
+        <i class="fa fa-linkedin" style="font-size: 36px"> </i>
+      </a>
+      <a id="email" href="mailto:quirinoj02@gmail.com">
+        <i class="fa fa-envelope" style="font-size: 36px" id="icon"> </i>
+      </a>
+      <a
+        id="telegram"
+        href="https://t.me/ojonatasquirinos"
+        target="_blank"
+        id="icon"
+      >
+        <i class="fa fa-telegram" style="font-size: 36px"> </i>
+      </a>
+    </footer>
+  </body>
+</html>

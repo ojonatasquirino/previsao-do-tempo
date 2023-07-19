@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Space+Grotesk:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(img/ceu.jpg);
+}
+
+.caixa-maior {
+  background: #000000;
+  opacity: 0.8;
+  border-radius: 45px 0 45px 0;
+
+  padding: 25px;
+  width: 95%;
+  max-width: 450px;
+}
+
+.input-cidade {
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 25px;
+  font-size: 20px;
+  background-color: #7c7c7c2b;
+  color: white;
+  width: calc(100% - 100px);
+  text-align: center;
+}
+
+.botao-busca {
+  border: none;
+  outline: none;
+  padding: 8px;
+  border-radius: 90px;
+  cursor: pointer;
+  float: right;
+  align-content: center;
+  opacity: 0.3;
+}
+
+.img-busca {
+  width: 20px;
+}
+
+.caixa-media {
+  margin-top: 30px;
+}
+.cidade {
+  color: #ffff;
+  font-size: 28px;
+}
+
+.temp {
+  font-size: 20px;
+  color: #ffff;
+  margin-top: 20px;
+}
+
+.caixa-menor {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.texto-previsao {
+  color: #ffff;
+  margin-left: 20px;
+  text-transform: capitalize;
+}
+
+.umidade {
+  color: #ffff;
+  margin-top: 20px;
+}
+
+footer {
+  display: flex;
+  padding: 25px 0;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  vertical-align: bottom;
+  position: absolute;
+  position: fixed;
+  bottom: 1%;
+  left: 1px;
+  gap: 170px;
+}
+
+footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#github :hover {
+  color: black;
+  transition: 1.4s;
+  opacity: 0.8;
+}
+
+#linkedin :hover {
+  color: black;
+  transition: 1.4s;
+}
+
+#email :hover {
+  color: black;
+  transition: 1.4s;
+  transition-duration: 1.4s;
+}
+
+#telegram :hover {
+  color: black;
+  transition: 1.4s;
+}
