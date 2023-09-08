@@ -1,6 +1,6 @@
 # previsao-do-tempo
 
-Trago uma aplicação em JavaScript que mostra a previsão do tempo em tempo real de qualquer cidade do mundo! Foi a primeira vez que desenvolvi um projeto consumindo uma API. Utilizei uma API da Open Weather. Ainda está sem responsivo pois o objetivo neste projeto foi aprender essas funcionalidades.
+Este repositório é uma aplicação em JavaScript que mostra a previsão do tempo em tempo real de qualquer cidade do mundo! Foi a primeira vez que desenvolvi um projeto consumindo uma API. Utilizei uma API da Open Weather. Ainda está sem responsivo pois o objetivo neste projeto foi aprender as funcionalidades de integração.
 
 
  ## Tecnologias Utilizadas
